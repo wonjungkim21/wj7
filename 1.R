@@ -1,3 +1,4 @@
+library('ISLR')
 read.csv(file = 'Advertising.csv', header = F)
 head(a)
 plot(a)
@@ -26,3 +27,9 @@ for ( iiii in 1:100)
   return(v)
 }
 v
+
+1:500
+for (i in 1:2000)
+{
+  
+}
