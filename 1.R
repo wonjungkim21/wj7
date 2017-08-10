@@ -1,11 +1,3 @@
-library('ISLR')
-read.csv(file = 'Advertising.csv', header = F)
-head(a)
-plot(a)
-lm(a)
-k= summary(lm(Sales~TV+Radio+Newspaper, data=a))
-k
-cor(a)
 
 
 a <- c(1,1)
